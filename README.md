@@ -1,18 +1,18 @@
-# travis_qmake_gcc_cpp14_cppcheck
+# travis_gcc_cpp17_cppcheck
 
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 ---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_gcc_cpp17_cppcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_gcc_cpp17_cppcheck)
+develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_gcc_cpp17_cppcheck.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
 
 This GitHub is part of:
 
  * [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
  
 The goal of this project is to have a clean Travis CI build, with specs:
- * Build system: `qmake`
+ * Build system: none
  * C++ compiler: `gcc`
- * C++ version: `C++14`
+ * C++ version: `C++17`
  * Libraries: `STL` only
  * Code coverage: none
  * Static code analysis: `cppcheck`
@@ -20,7 +20,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 More complex builds:
 
- * Use C++17: [travis_qmake_gcc_cpp17_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17_cppcheck)
+ * Add qmake`: [travis_qmake_gcc_cpp17_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17_cppcheck)
 
 Builds of similar complexity:
 
@@ -28,5 +28,5 @@ Builds of similar complexity:
 
 Less complex builds:
 
- * No `cppcheck`: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
+ * No `cppcheck`: [travis_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_gcc_cpp17)
 
